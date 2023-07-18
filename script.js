@@ -1,7 +1,7 @@
-//your JS code here. If required.
-let n=prompt("Enter the number");
+// //your JS code here. If required.
+// let n=prompt("Enter the number");
 
-for (let i = 1; i <=n; i++) {
+for (let i = 1; i <=20; i++) {
 	if(i%3==0 && i%5==0){
 		alert("FizzBuzz");
 	}
@@ -10,5 +10,8 @@ for (let i = 1; i <=n; i++) {
 	}
 	else if(i%5==0){
 		alert("Buzz");
+	}
+	else{
+		alert(i);
 	}
 }
